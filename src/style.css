@@ -46,18 +46,23 @@ h1 {
   text-align: center;
 }
 
+/* animate here, you can even setup fancy keyframes and such */
+
 .text-container {
   position:absolute;
+  width:fit-content;
   transform: translate(-50%, -50%);
+  width: 100%;
   overflow:visible;
   transition: opacity 0.2s, transform 0.5s, filter 0.7s, letter-spacing 0.8s;
 }
 
 .text-container:not(.active) {
   opacity: 0;
-  transform: translate(-50%, 0%);
+  width: 100%;
+  transform: translate(-50%, -50%) scale(0.4);
   filter: blur(20px) brightness(200%);
   letter-spacing: 0.2rem;
   overflow:visible;
-  transition: opacity 0.2s, transform 0.5s, filter 0.2s, letter-spacing 0.8s;
+  transition: opacity 0.2s, transform 0.5s, filter 0.7s, letter-spacing 0.8s;
 }

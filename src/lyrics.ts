@@ -13,7 +13,7 @@ const time = (m:number, s:number, ms:number) => ((m * 60000 + s * 1000 + ms)+glo
 export const lyrics: lyric[] = [
     {
         kan: "稲葉曇 - 天泣",
-        eng: "Inabakumori - Heaven's Tears",
+        eng: "Inabakumori - Heaven's Tears loooooooooooong",
         time: time(0, 0, 0),
     },{
         kan: "",
