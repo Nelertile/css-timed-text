@@ -1,20 +1,21 @@
-@import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
-
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;900&family=Outfit:wght@300;500&display=swap");
 :root {
-  font-family: "Kaisei Tokumin", "Noto Serif JP", serif;
+  font-family: "Outfit", sans;
   font-size: 16px;
   line-height: 24px;
-  font-weight: 400;
-
+  font-weight: 500;
   color-scheme: light dark;
   color: #fff;
-  background-color: #adadad;
-
+  background-color: #272726;
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   -webkit-text-size-adjust: 100%;
+}
+:root h1 {
+  font-family: "Noto Sans JP", sans-serif;
+  font-weight: 500;
 }
 
 a {
@@ -47,22 +48,22 @@ h1 {
 }
 
 /* animate here, you can even setup fancy keyframes and such */
-
 .text-container {
-  position:absolute;
-  width:fit-content;
+  position: absolute;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   transform: translate(-50%, -50%);
   width: 100%;
-  overflow:visible;
+  overflow: visible;
   transition: opacity 0.2s, transform 0.5s, filter 0.7s, letter-spacing 0.8s;
 }
-
 .text-container:not(.active) {
   opacity: 0;
   width: 100%;
   transform: translate(-50%, -50%) scale(0.4);
   filter: blur(20px) brightness(200%);
   letter-spacing: 0.2rem;
-  overflow:visible;
+  overflow: visible;
   transition: opacity 0.2s, transform 0.5s, filter 0.7s, letter-spacing 0.8s;
-}
+}/*# sourceMappingURL=style.css.map */

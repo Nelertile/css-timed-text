@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;900&family=Outfit:wght@300;500&display=swap')
+
+:root
+  font-family: "Outfit", sans
+  font-size: 16px
+  line-height: 24px
+  font-weight: 500
+
+  color-scheme: light dark
+  color: #fff
+  background-color: #272726
+
+  font-synthesis: none
+  text-rendering: optimizeLegibility
+  -webkit-font-smoothing: antialiased
+  -moz-osx-font-smoothing: grayscale
+  -webkit-text-size-adjust: 100%
+
+  h1
+    font-family: 'Noto Sans JP', sans-serif
+    font-weight: 500
+
+a
+  font-weight: 500
+  color: #646cff
+  text-decoration: inherit
+
+  &:hover
+    color: #535bf2
+
+body
+  margin: 0
+  display: flex
+  place-items: center
+  min-width: 320px
+  min-height: 100vh
+
+h1
+  font-size: 3.2em
+  line-height: 1.1
+
+#main
+  max-width: 1280px
+  margin: 0 auto
+  padding: 2rem
+  text-align: center
+
+/* animate here, you can even setup fancy keyframes and such */
+
+.text-container
+  position: absolute
+  width: fit-content
+  transform: translate(-50%, -50%)
+  width: 100%
+  overflow: visible
+  transition: opacity 0.2s, transform 0.5s, filter 0.7s, letter-spacing 0.8s
+
+  &:not(.active)
+    opacity: 0
+    width: 100%
+    transform: translate(-50%, -50%) scale(0.4)
+    filter: blur(20px) brightness(200%)
+    letter-spacing: 0.2rem
+    overflow: visible
+    transition: opacity 0.2s, transform 0.5s, filter 0.7s, letter-spacing 0.8s

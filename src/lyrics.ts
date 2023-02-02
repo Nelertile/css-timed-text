@@ -1,5 +1,6 @@
 interface lyric {
     kan: string
+    rom: string
     eng: string
     time: number
 }
@@ -12,64 +13,64 @@ const time = (m:number, s:number, ms:number) => ((m * 60000 + s * 1000 + ms)+glo
 
 export const lyrics: lyric[] = [
     {
-        kan: "稲葉曇 - 天泣",
-        eng: "Inabakumori - Heaven's Tears loooooooooooong",
-        time: time(0, 0, 0),
-    },{
+        kan: "結束バンド - あのバンド",
+        rom: "Kessoku Band - Ano Bando",
+        eng: "Kessoku Band - That Band",
+        time: time(0, 0, 0)
+    }, {
         kan: "",
-        eng: "A small javascript demo",
-        time: time(0, 8, 616)
-    },{
-        kan: "君の声を飲み込まぬよう",
-        eng: "As to not accidentally swallow the words of yours,",
-        time: time(0, 18, 166),
-    },{
-        kan: "縛って結んで風任せ",
-        eng: "I bind it up, tie it up, and leave it to the wind.",
-        time: time(0, 22, 186)
-    },{
-        kan: "",
+        rom: "",
         eng: "",
-        time: time(0, 25, 152)
-    },{
-        kan: "濁る薄暮 ひ弱な影は",
-        eng: "A turbid dusk, along with its fuzzy shadows",
-        time: time(0, 26, 423)
-    },{
-        kan: "考えちゃいけないけど  あ...",
-        eng: "I'm not supposed to think about them, now...",
-        time: time(0, 30, 584)
-    },{
+        time: time(0, 4, 0)
+    }, {
         kan: "",
-        eng: "",
-        time: time(0, 33, 420)
-    },{
-        kan: "あたしを犠牲にする前兆",
-        eng: "It’s a premonition for self sacrifice.",
-        time: time(0, 34, 202)
-    },{
-        kan: "明日の天気は快晴に",
-        eng: "Tomorrow's weather will be clear",
-        time: time(0, 37, 820)
-    },{
-        kan: "ぐずついちゃダメなの",
-        eng: "But I still felt uneasy",
-        time: time(0, 39, 928)
-    },{
-        kan: "絶対に",
-        eng: "I swear...",
-        time: time(0, 41, 156)
-    },{
-        kan: "呼吸を手放して",
-        eng: "I want to let go of this pulsation",
-        time: time(0, 41, 936)
-    },{
-        kan: "あたしは願っているの",
-        eng: "That's my only wish",
-        time: time(0, 43, 513)
-    },{
+        rom: "Made by Nelertile",
+        eng: "Based on framework by Vlusky",
+        time: time(0, 8, 0)
+    }, {
         kan: "",
+        rom: "",
         eng: "",
-        time: time(0, 46, 8)
+        time: time(0, 12, 0)
+    }, {
+        kan: "あのバンドの歌がわたしには",
+        rom: "ano bando no uta ga watashi ni wa",
+        eng: "That band's songs sound to me",
+        time: time(0, 14, 0)
+    }, {
+        kan: "甲高く響く笑い声に聞こえる",
+        rom: "kandakaku hibiku waraigoe ni kikoeru",
+        eng: "like shrill laughter all around",
+        time: time(0, 19, 0)
+    }, {
+        kan: "あのバンドの歌がわたしには",
+        rom: "ano bando no uta ga watashi ni wa",
+        eng: "That band's songs sound to me",
+        time: time(0, 24, 500)
+    },{
+        kan: "つんざく踏切の音みたい",
+        rom: "Tsunzaku fumikiri no oto mitai",
+        eng: "like the piercing clang of railway crossing",
+        time: time(0,29,500)
+    }, {
+        kan: "",
+        rom: "",
+        eng: "",
+        time: time(0, 34, 500)
+    }, {
+        kan: "背中を押すなよ",
+        rom: "Senaka wo osuna yo",
+        eng: "don't push me forward",
+        time: time(0, 36, 0)
+    }, {
+        kan: "もうそこに列車が来る",
+        rom: "Mou soko ni ressha ga kuru",
+        eng: "there's a train coming",
+        time: time(0, 41, 0)
+    }, {
+        kan: "目を閉じる、暗闇に差す後光",
+        rom: "Me wo tojiru kurayami ni sasu gokou",
+        eng: "i close my eyes, there's a halo in the darkness",
+        time: time(0, 44, 0)
     }
 ]

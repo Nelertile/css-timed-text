@@ -5,7 +5,7 @@ const main = document.querySelector<HTMLDivElement>('#main')!
 
 const audio = new Audio()
 
-audio.src = "tenkyuu.mp3"
+audio.src = "anobando.mp3"
 
 function init() {
     audio.play()
@@ -14,6 +14,7 @@ function init() {
     for (const lyricElement of lyrics) {
         main.innerHTML += `<div class="text-container">
             <h1>${lyricElement.kan}</h1>
+            <h2>${lyricElement.rom}</h2>
             <h2>${lyricElement.eng}</h2>
         </div>`
     }
