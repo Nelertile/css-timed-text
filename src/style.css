@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Kaisei+Tokumin:wght@400;500;700;800&display=swap');
 
 :root {
-  font-family: "Kaisei Tokumin", "Noto Serif JP";
+  font-family: "Kaisei Tokumin", "Noto Serif JP", serif;
   font-size: 16px;
   line-height: 24px;
   font-weight: 400;
