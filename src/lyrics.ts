@@ -72,5 +72,30 @@ export const lyrics: lyric[] = [
         rom: "Me wo tojiru kurayami ni sasu gokou",
         eng: "i close my eyes, there's a halo in the darkness",
         time: time(0, 44, 0)
+    }, {
+        kan: "耳塞ぐ、確かに刻む鼓動",
+        rom: "Mimi fusagu, tashika ni kizamu kodou",
+        eng: "i cover my ears, there's a steady beating pulse within",
+        time: time(0, 49, 0)
+    }, {
+        kan: "胸の奥、身を揺らす心臓",
+        rom: "Mune no oku, mi wo yurasu shinzou",
+        eng: "deep in my chest, my heart makes my body sway",
+        time: time(0, 54, 0)
+    }, {
+        kan: "ほかに何も聴きたくない",
+        rom: "Hoka ni nanmo kikitakunai",
+        eng: "i don't want to hear anything else",
+        time: time(0, 59, 0)
+    }, {
+        kan: "わたしが放つ音以外",
+        rom: "Watashi ga hanatsu oto igai",
+        eng: "nothing but the sounds i'm making",
+        time: time(1, 2, 0)
+    }, {
+        kan: "",
+        rom: "",
+        eng: "",
+        time: time(1, 5, 0)
     }
 ]
